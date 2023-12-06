@@ -3,8 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .tictactoe{
+    background-color: black;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+    border-radius: 10px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    transition: 0.5s;
+}
+.box:hover{
+    background-color: rgb(255, 223, 223);
+}
+.topleft{
+    border-top-left-radius:10px;
+}
+.topright{
+    border-top-right-radius: 10px;
+}
+.bottomleft{
+    border-bottom-left-radius: 10px;
+}
+.bottomright{
+    border-bottom-right-radius: 10px;
 }
