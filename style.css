@@ -23,6 +23,7 @@
     height: 100px;
     background-color: white;
     transition: 0.5s;
+    transition: background-image 0.5s ease;
 }
 .box:hover{
     background-color: rgb(255, 223, 223);
@@ -38,4 +39,12 @@
 }
 .bottomright{
     border-bottom-right-radius: 10px;
+}
+.crossbg{
+    background-image: url("cross.png");
+    background-size: 100px;
+}
+.circlebg{
+    background-image: url("circle.png");
+    background-size: 100px;
 }
